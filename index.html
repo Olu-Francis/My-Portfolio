@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Daniel Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbeBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbeBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -32,7 +35,7 @@
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                 <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Works</a></li>
             </ul>
         </nav>
 
@@ -44,10 +47,10 @@
 
     <section class="intro" id="home">
         <h1 class="section__title section__title--intro">
-            Hi, I'm <strong>Daniel Olu-Francis</strong>
+            Hi, I'm <strong>Daniel</strong><strong> Olu-Francis</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-        <img src="/img/daniel.jpg" alt="a picture of Olu-Francis Daniel">
+        <img src="/img/daniel.jpg" alt="a picture of Olu-Francis Daniel" class="intro__image">
     </section>
 
     <!-- 
@@ -59,22 +62,18 @@
         <div class="services">
             <div class="service">
                 <h3>Design + Development</h3>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div><!-- service -->
             <div class="service">
                 <h3>WordPress</h3>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div><!-- service -->
             <div class="service">
                 <h3>E-Commerce</h3>
-                <p></p>
-            </div><!-- service -->
-            <div class="service">
-                <h3>Game</h3>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div><!-- service -->
         </div><!-- services -->
-        <a href="#work" class="btn">My Work</a>
+        <a href="#work" class="btn">My Works</a>
     </section>
 
     <!-- 
@@ -83,14 +82,14 @@
 
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about"></p>
+        <p class="section__subtitle section__subtitle--about">Software Engineer & MERN Stack Developer</p>
 
         <div class="about-me__body">
-            <p></p>
-            <p></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
 
-        <img src="/img/about.jpg" alt="about me img">
+        <img src="/img/about.jpg" alt="about me img" class="about-me__img">
     </section>
 
     <!-- 
@@ -98,48 +97,48 @@
     -->
 
     <section class="my-work" id="work">
-        <h2 class="secrion__title">My Work</h2>
-        <p class="section__subtitle"></p>
+        <h2 class="section__title section__title-work ">My Works</h2>
+        <p class="section__subtitle section__subtitle-work ">A selection of my range of work.</p>
 
         <div class="portfolio">
             <!-- Portfolio Item 01 -->
             <a href="#" class="portfolio__item">
-                <img src="/img/portfolio_img.jpg" alt="portfolio-01" class="portfolio__img">
+                <img src="/img/portfolio_img.png" alt="portfolio-01" class="portfolio__img">
             </a>
 
             <!-- Portfolio Item 02 -->
             <a href="#" class="portfolio__item">
-                <img src="/img/portfolio_img.jpg" alt="portfolio-02" class="portfolio__img">
+                <img src="/img/portfolio_img.png" alt="portfolio-02" class="portfolio__img">
             </a>
 
             <!-- Portfolio Item 03 -->
             <a href="#" class="portfolio__item">
-                <img src="/img/portfolio_img.jpg" alt="portfolio-03" class="portfolio__img">
+                <img src="/img/portfolio_img.png" alt="portfolio-03" class="portfolio__img">
             </a>
 
             <!-- Portfolio Item 04 -->
             <a href="#" class="portfolio__item">
-                <img src="/img/portfolio_img.jpg" alt="portfolio-04" class="portfolio__img">
+                <img src="/img/portfolio_img.png" alt="portfolio-04" class="portfolio__img">
             </a>
 
             <!-- Portfolio Item 05 -->
             <a href="#" class="portfolio__item">
-                <img src="/img/portfolio_img.jpg" alt="portfolio-05" class="portfolio__img">
+                <img src="/img/portfolio_img.png" alt="portfolio-05" class="portfolio__img">
             </a>
 
             <!-- Portfolio Item 06 -->
             <a href="#" class="portfolio__item">
-                <img src="/img/portfolio_img.jpg" alt="portfolio-06" class="portfolio__img">
+                <img src="/img/portfolio_img.png" alt="portfolio-06" class="portfolio__img">
             </a>
 
             <!-- Portfolio Item 07 -->
             <a href="#" class="portfolio__item">
-                <img src="/img/portfolio_img.jpg" alt="portfolio-07" class="portfolio__img">
+                <img src="/img/portfolio_img.png" alt="portfolio-07" class="portfolio__img">
             </a>
 
             <!-- Portfolio Item 08 -->
             <a href="#" class="portfolio__item">
-                <img src="/img/portfolio_img.jpg" alt="portfolio-08" class="portfolio__img">
+                <img src="/img/portfolio_img.png" alt="portfolio-08" class="portfolio__img">
             </a>
         </div>
 
@@ -149,14 +148,19 @@
         *******Footer*******
     -->
 
-    <footer>
+    <footer class="footer">
         <a href="mailto:dansmatd123@gmail.com" class="footer__link">dansmatd123@gmail.com</a>
         <ul class="social-list">
-            <li class="social-list__item"><a href="github" class="scoial-link__list">git</a></li>
-            <li class="social-list__item"><a href="linkeden" class="scoial-link__list">linkeden</a></li>
-            <li class="social-list__item"><a href="twitter" class="scoial-link__list">twitter</a></li>
+            <li class="social-list__item"><a href="https://github.com/Olu-Francis" class="social-link__list">github</a>
+            </li>
+            <li class="social-list__item"><a href="https://www.linkedin.com/mwlite/in/olu-francis-daniel-149634209"class="social-link__list">linkedin</a>
+                </li>
+            <li class="social-list__item"><a href="https://twitter.com/Fran_six_?t=RQp7ulx7AtlMfTuD_s06AA&s=08" class="social-link__list">twitter</a>
+                </li>
         </ul>
     </footer>
+
+    <script src="/js/script.js"></script>
 
 </body>
 
