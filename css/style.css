@@ -401,7 +401,7 @@ If you want the display to be smaller on small screen i.e phones
 .portfolio{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    max-width: 800px;
+    max-width: 821px;
     margin: 0 auto;
 }
 
