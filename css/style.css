@@ -150,8 +150,8 @@ header{
     background: rgba(0, 0, 0);
 }
 
-.logo{
-    max-width: 30%;
+.logo img {
+    width: 30%;
 }
 
 .nav{
