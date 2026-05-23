@@ -402,11 +402,17 @@ If you want the display to be smaller on small screen i.e phones
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-width: 821px;
     margin: 0 auto;
+    gap: 1rem;
+}
+
+.portfolio__card{
+    background: var(--clr-accent);
 }
 
 .portfolio__item{
     background: var(--clr-accent);
     overflow: hidden;
+    display: block;
 }
 
 .portfolio__img{
@@ -431,6 +437,22 @@ If you want the display to be smaller on small screen i.e phones
     opacity: .5;
     /* outline: none;
     outline-offset: none; */
+}
+
+.portfolio__code-link{
+    display: inline-block;
+    margin: .75em;
+    padding: .35em .9em;
+    border: 1px solid var(--clr-dark);
+    color: var(--clr-dark);
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+}
+
+.portfolio__code-link:hover,
+.portfolio__code-link:focus{
+    background: var(--clr-dark);
+    color: var(--clr-light);
 }
 
 /* Contact */
@@ -513,7 +535,6 @@ If you want the display to be smaller on small screen i.e phones
 .social-link__list{
     padding: .6em;
 }
-
 
 
 
