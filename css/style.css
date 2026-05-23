@@ -433,6 +433,43 @@ If you want the display to be smaller on small screen i.e phones
     outline-offset: none; */
 }
 
+/* Contact */
+
+.contact{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact .section__title,
+.contact .section__subtitle{
+    text-align: center;
+}
+
+.contact__form{
+    display: grid;
+    gap: .8em;
+    max-width: 700px;
+    margin: 2em auto 0;
+}
+
+.contact__form label{
+    font-weight: var(--fw-bold);
+}
+
+.contact__form input,
+.contact__form textarea{
+    width: 100%;
+    padding: .8em 1em;
+    border: 1px solid #ddd;
+    border-radius: .4em;
+    font: inherit;
+}
+
+.contact__form .btn{
+    justify-self: start;
+    border: 0;
+}
+
 /* Footer */
 
 .footer{
@@ -476,7 +513,6 @@ If you want the display to be smaller on small screen i.e phones
 .social-link__list{
     padding: .6em;
 }
-
 
 
 
