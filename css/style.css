@@ -405,7 +405,7 @@ If you want the display to be smaller on small screen i.e phones
     gap: 1rem;
 }
 
-.portfolio__card{
+.portfolio__card {
     background: var(--clr-accent);
 }
 
@@ -535,7 +535,6 @@ If you want the display to be smaller on small screen i.e phones
 .social-link__list{
     padding: .6em;
 }
-
 
 
 
