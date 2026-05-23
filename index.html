@@ -38,6 +38,7 @@
                 <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
                 <li class="nav__item"><a href="#work" class="nav__link">My Works</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
         </nav>
 
@@ -99,37 +100,80 @@
 
         <div class="portfolio">
             <!-- Portfolio Item 01 -->
-            <a href="https://github.com/Olu-Francis/pomodoro-time-managing-technigue" class="portfolio__item">
-                <img src="img/pomodoro.PNG" alt="portfolio-01" class="portfolio__img">
-            </a>
+            <div class="portfolio__card">
+                <a href="https://olu-francis.github.io/pomodoro-time-managing-technigue/" class="portfolio__item" target="_blank" rel="noopener noreferrer">
+                    <img src="img/pomodoro.PNG" alt="portfolio-01" class="portfolio__img">
+                </a>
+                <a href="https://github.com/Olu-Francis/pomodoro-time-managing-technigue" class="portfolio__code-link" target="_blank" rel="noopener noreferrer">View Code</a>
+            </div>
 
             <!-- Portfolio Item 02 -->
-            <a href="https://github.com/Olu-Francis/pongGame" class="portfolio__item">
-                <img src="img/pong.jpg" alt="portfolio-02" class="portfolio__img">
-            </a>
+            <div class="portfolio__card">
+                <a href="https://olu-francis.github.io/pongGame/" class="portfolio__item" target="_blank" rel="noopener noreferrer">
+                    <img src="img/pong.jpg" alt="portfolio-02" class="portfolio__img">
+                </a>
+                <a href="https://github.com/Olu-Francis/pongGame" class="portfolio__code-link" target="_blank" rel="noopener noreferrer">View Code</a>
+            </div>
 
             <!-- Portfolio Item 03 -->
-            <a href="https://github.com/Olu-Francis/final_project" class="portfolio__item">
-                <img src="img/financial-app.png" alt="portfolio-03" class="portfolio__img">
-            </a>
+            <div class="portfolio__card">
+                <a href="https://olu-francis.github.io/final_project/" class="portfolio__item" target="_blank" rel="noopener noreferrer">
+                    <img src="img/financial-app.png" alt="portfolio-03" class="portfolio__img">
+                </a>
+                <a href="https://github.com/Olu-Francis/final_project" class="portfolio__code-link" target="_blank" rel="noopener noreferrer">View Code</a>
+            </div>
 
             <!-- Portfolio Item 04 -->
-            <a href="https://github.com/Olu-Francis/flash-card-project" class="portfolio__item">
-                <img src="img/Flashcrad.PNG" alt="portfolio-04" class="portfolio__img">
-            </a>
+            <div class="portfolio__card">
+                <a href="https://olu-francis.github.io/flash-card-project/" class="portfolio__item" target="_blank" rel="noopener noreferrer">
+                    <img src="img/Flashcrad.PNG" alt="portfolio-04" class="portfolio__img">
+                </a>
+                <a href="https://github.com/Olu-Francis/flash-card-project" class="portfolio__code-link" target="_blank" rel="noopener noreferrer">View Code</a>
+            </div>
 
             <!-- Portfolio Item 05 -->
-            <a href="https://github.com/Olu-Francis/sem4-project" class="portfolio__item">
-                <img src="img/sem4.PNG" alt="portfolio-05" class="portfolio__img">
-            </a>
+            <div class="portfolio__card">
+                <a href="https://olu-francis.github.io/sem4-project/" class="portfolio__item" target="_blank" rel="noopener noreferrer">
+                    <img src="img/sem4.PNG" alt="portfolio-05" class="portfolio__img">
+                </a>
+                <a href="https://github.com/Olu-Francis/sem4-project" class="portfolio__code-link" target="_blank" rel="noopener noreferrer">View Code</a>
+            </div>
 
             <!-- Portfolio Item 06 -->
-            <a href="https://github.com/Olu-Francis/Budget-App" class="portfolio__item">
-                <img src="img/Budget.PNG" alt="portfolio-06" class="portfolio__img">
-            </a>
+            <div class="portfolio__card">
+                <a href="https://olu-francis.github.io/Budget-App/" class="portfolio__item" target="_blank" rel="noopener noreferrer">
+                    <img src="img/Budget.PNG" alt="portfolio-06" class="portfolio__img">
+                </a>
+                <a href="https://github.com/Olu-Francis/Budget-App" class="portfolio__code-link" target="_blank" rel="noopener noreferrer">View Code</a>
+            </div>
             
         </div>
 
+    </section>
+
+    <!-- 
+        *******Contact*******
+    -->
+
+    <section class="contact" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <p class="section__subtitle">Send me a message and I’ll get back to you.</p>
+        <form class="contact__form" action="https://formsubmit.co/olufrancisdaniel@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New message from portfolio website">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://olu-francis.github.io/My-Portfolio/">
+
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
     </section>
 
     <!-- 
@@ -139,11 +183,11 @@
     <footer class="footer">
         <a href="mailto:olufrancisdaniel@gmail.com" class="footer__link">Mail Me</a>
         <ul class="social-list">
-            <li class="social-list__item"><a href="https://github.com/Olu-Francis" class="social-link__list" target="_blank">github</a>
+            <li class="social-list__item"><a href="https://github.com/Olu-Francis" class="social-link__list" target="_blank" rel="noopener noreferrer">github</a>
             </li>
-            <li class="social-list__item"><a href="https://www.linkedin.com/in/olu-francis-daniel-149634209/"class="social-link__list" target="_blank">linkedin</a>
+            <li class="social-list__item"><a href="https://www.linkedin.com/in/olu-francis-daniel-149634209/" class="social-link__list" target="_blank" rel="noopener noreferrer">linkedin</a>
                 </li>
-            <li class="social-list__item"><a href="https://twitter.com/Fran_six_?t=RQp7ulx7AtlMfTuD_s06AA&s=08" class="social-link__list" target="_blank">twitter</a>
+            <li class="social-list__item"><a href="https://twitter.com/Fran_six_?t=RQp7ulx7AtlMfTuD_s06AA&s=08" class="social-link__list" target="_blank" rel="noopener noreferrer">twitter</a>
                 </li>
         </ul>
     </footer>
